@@ -2,7 +2,7 @@ import { useState } from "react";
 import { ChatEngine } from "react-chat-engine";
 import {sendMessage , isTyping} from 'react-chat-engine';
 import { SendOutlined, PictureOutlined } from "@ant-design/icons";
-import { scryRenderedDOMComponentsWithClass } from "react-dom/test-utils";
+
 
 
 const MessageForm = (props) => {
